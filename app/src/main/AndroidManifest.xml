@@ -38,11 +38,13 @@
         <activity android:name=".mydrawable.LayerListActivity" />
         <activity android:name=".mydrawable.StateListActivity" />
         <activity android:name=".mydrawable.LevelListActivity" />
-        <activity android:name=".mydrawable.TransitionActivity"></activity>
-        <activity android:name=".mydrawable.InsetActivity">
+        <activity android:name=".mydrawable.TransitionActivity" />
+        <activity android:name=".mydrawable.InsetActivity" />
+        <activity android:name=".mydrawable.ColorListActivity"></activity>
+        <activity android:name=".StringArrayActivity">
 
         </activity>
-        <activity android:name=".mydrawable.ColorListActivity">
+        <activity android:name=".SpannableStringActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

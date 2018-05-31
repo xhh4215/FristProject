@@ -4,4 +4,12 @@
     <string name="button_text">发送</string>
     <string name="resource01">数据文本资源</string>
     <string name="resource02">数据文本资源二</string>
+    <string name="strings">字符串的练习</string>
+    <string-array name="android_array">
+        <item>android</item>
+        <item>kotlin</item>
+        <item>java</item>
+        <item>python</item>
+    </string-array>
+    <string name="welcome_message">Hello,%1$s! You have&lt;$s!;b>%2$d new messages&lt;/b>.</string>
 </resources>

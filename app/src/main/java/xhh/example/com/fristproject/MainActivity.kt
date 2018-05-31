@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         button.setOnClickListener {
             val intent = Intent(this@MainActivity,DisplayMessageActivity::class.java)
-            intent.putExtra("message", EXTRA_MESSAGE)
+
+            intent.putExtra("message",  getString(R.string.strings))
             startActivity(intent)
         }
 
