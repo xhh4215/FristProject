@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/item01"
+       android:title="标题一"
+       android:titleCondensed="第一个标题太长了"
+       android:icon="@drawable/cc"
+       android:onClick="ItemOne"
+       android:checked="true"
+       android:enabled="true"
+       android:visible="true"
+       android:alphabeticShortcut="ALT"
+
+       />
+    <item
+        android:id="@+id/item02"
+        android:title="标题二"
+        android:icon="@drawable/cc"
+        android:onClick="ItemOne"
+        android:numericShortcut="12"
+        android:checkable="true"
+        />
+</menu>
