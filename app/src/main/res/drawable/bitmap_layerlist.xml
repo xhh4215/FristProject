@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_a"
+        android:left="0dp"
+        android:top="0dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/aa" />
+    </item>
+    <item
+        android:id="@+id/id_b"
+        android:left="15dp"
+        android:top="15dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/aa" />
+    </item>
+    <item
+        android:id="@+id/id_c"
+        android:left="30dp"
+        android:top="30dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/aa" />
+    </item>
+    <item
+        android:id="@+id/id_d"
+        android:left="45dp"
+        android:top="45dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/aa" />
+    </item>
+
+</layer-list>

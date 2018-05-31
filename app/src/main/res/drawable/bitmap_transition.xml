@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawable01"
+        android:drawable="@drawable/b"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:right="10dp"
+        android:left="10dp"
+        />
+    <item
+        android:id="@+id/drawable02"
+        android:drawable="@drawable/c"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:right="10dp"
+        android:left="10dp"
+        />
+</transition>
