@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--在资源文件加下定义boolean资源数据
+  在xml中的使用和其他资源是一样的   在代码中
+  getResource().getBoolean(resId)
+-->
+<resources>
+    <bool name="isTrue">true</bool>
+    <bool name="isFalse">false</bool>
+</resources>

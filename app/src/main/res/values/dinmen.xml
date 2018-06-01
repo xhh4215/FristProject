@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--定义尺寸相关的资源的文件-->
+<resources>
+    <dimen name="colordimen">12dp</dimen>
+</resources>

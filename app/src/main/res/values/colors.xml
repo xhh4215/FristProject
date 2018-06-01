@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!--定义颜色资源文件
+     在xml中的使用方式和其他资源是相同的
+     在代码中通过getResource().getColor(resId) 来获取
+     -->
+    <color name="xiaohei">#ffff</color>
 </resources>

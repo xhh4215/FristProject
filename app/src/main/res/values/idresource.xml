@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--定义了一个可以为控件专门指定id-->
+    <item name="textId" type="id" />
+    <!--定义了一个创建整数资源的文件-->
+    <integer name="myinteger">12</integer>
+    <!--定义字符串数组资源-->
+    <string-array name="string_array">
+        <item>xiaohei</item>
+        <item>xiaohei</item>
+        <item>xiaohei</item>
+        <item>xiaohei</item>
+        <item>xiaohei</item>
+        <item>xiaohei</item>
+    </string-array>
+    <!--定义整形的数组资源-->
+    <integer-array name="interger_array">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <!--这里是定义类型数组-->
+    <array name="colors">
+        <item>#FFFF0000</item>
+        <item>#FF00FF00</item>
+        <item>#FF0000FF</item>
+    </array>
+</resources>
