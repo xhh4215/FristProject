@@ -9,17 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--声明一个活动（一个Activity子类），它实现了应用程序的可视化用户界面的一部分。
+
+        <!--
+        声明一个活动（一个Activity子类），它实现了应用程序的可视化用户界面的一部分。
         所有活动必须由<activity> 清单文件中的元素表示。任何未声明的内容都不会被系统看到，并且永远不会运行。
           属性
           - allowEmbedded
-         -->
+        -->
         <activity android:name=".MainActivity">
-             <intent-filter>
 
-             <action android:name="android.intent.action.MAIN" />
-             <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
         </activity>
         <activity
             android:name=".DisplayMessageActivity"
@@ -28,16 +26,23 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".mydrawable.BitmapActivity"></activity>
+        <activity android:name=".mydrawable.BitmapActivity" />
         <activity android:name=".mydrawable.NinePatchActivity" />
         <activity android:name=".mydrawable.LayerListActivity" />
         <activity android:name=".mydrawable.StateListActivity" />
         <activity android:name=".mydrawable.LevelListActivity" />
         <activity android:name=".mydrawable.TransitionActivity" />
         <activity android:name=".mydrawable.InsetActivity" />
-        <activity android:name=".mydrawable.ColorListActivity"></activity>
-        <activity android:name=".StringArrayActivity"></activity>
-        <activity android:name=".SpannableStringActivity"></activity>
+        <activity android:name=".mydrawable.ColorListActivity" />
+        <activity android:name=".StringArrayActivity" />
+        <activity android:name=".SpannableStringActivity" />
+        <activity android:name=".myanimator.AnimationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

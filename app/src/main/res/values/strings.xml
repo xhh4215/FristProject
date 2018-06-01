@@ -5,6 +5,7 @@
     <string name="resource01">数据文本资源</string>
     <string name="resource02">数据文本资源二</string>
     <string name="strings">字符串的练习</string>
+    <string name="button_animator">为按钮添加动画</string>
     <string-array name="android_array">
         <item>android</item>
         <item>kotlin</item>
